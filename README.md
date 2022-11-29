@@ -11,9 +11,9 @@
 </p>
  -->
 <p align="row">
-<img src= "https://user-images.githubusercontent.com/62954414/204465639-40d2a9db-2521-4f1d-ba53-0590570647c8.png" width="200" >
-<img src= "https://user-images.githubusercontent.com/62954414/204465636-1b627107-ac8b-4578-a8d6-67a6e7d47f24.png" width="200" >
-<img src= "https://user-images.githubusercontent.com/62954414/204465599-63532c80-d2d7-4b24-adc3-1af11bc2e6a8.png" width="200" >
+<img src= "https://user-images.githubusercontent.com/62954414/204465639-40d2a9db-2521-4f1d-ba53-0590570647c8.png" width="220" >
+<img src= "https://user-images.githubusercontent.com/62954414/204465636-1b627107-ac8b-4578-a8d6-67a6e7d47f24.png" width="220" >
+<img src= "https://user-images.githubusercontent.com/62954414/204465599-63532c80-d2d7-4b24-adc3-1af11bc2e6a8.png" width="220" >
 </p>
 
 ## Features
