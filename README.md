@@ -40,7 +40,7 @@
 
 Nij Mehar Grover – nijmehar1@gmail.com
 
-[https://github.com/K1RA-16/github-link](https://github.com/K1RA-16
+[https://github.com/K1RA-16/github-link](https://github.com/K1RA-16)
 
 [swift-image]:https://img.shields.io/badge/swift-5.7-orange.svg
 [swift-url]: https://swift.org/
