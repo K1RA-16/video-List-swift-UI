@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		E8E860B72935D8B3001EEC3A /* UiListNavApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E860B62935D8B3001EEC3A /* UiListNavApp.swift */; };
-		E8E860B92935D8B3001EEC3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E860B82935D8B3001EEC3A /* ContentView.swift */; };
 		E8E860BB2935D8B5001EEC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E860BA2935D8B5001EEC3A /* Assets.xcassets */; };
 		E8E860BE2935D8B5001EEC3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8E860BD2935D8B5001EEC3A /* Preview Assets.xcassets */; };
 		E8E860C82935D8B5001EEC3A /* UiListNavTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E860C72935D8B5001EEC3A /* UiListNavTests.swift */; };
 		E8E860D22935D8B5001EEC3A /* UiListNavUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E860D12935D8B5001EEC3A /* UiListNavUITests.swift */; };
 		E8E860D42935D8B5001EEC3A /* UiListNavUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E860D32935D8B5001EEC3A /* UiListNavUITestsLaunchTests.swift */; };
+		E8E926DB2935D959006D166E /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E926DA2935D959006D166E /* Video.swift */; };
+		E8E926DD2935D96C006D166E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E926DC2935D96C006D166E /* ListView.swift */; };
+		E8E926DF2935DEC1006D166E /* VideoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E926DE2935DEC1006D166E /* VideoDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +38,6 @@
 /* Begin PBXFileReference section */
 		E8E860B32935D8B3001EEC3A /* UiListNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UiListNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E860B62935D8B3001EEC3A /* UiListNavApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiListNavApp.swift; sourceTree = "<group>"; };
-		E8E860B82935D8B3001EEC3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E8E860BA2935D8B5001EEC3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8E860BD2935D8B5001EEC3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E8E860C32935D8B5001EEC3A /* UiListNavTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UiListNavTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,9 @@
 		E8E860CD2935D8B5001EEC3A /* UiListNavUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UiListNavUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8E860D12935D8B5001EEC3A /* UiListNavUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiListNavUITests.swift; sourceTree = "<group>"; };
 		E8E860D32935D8B5001EEC3A /* UiListNavUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiListNavUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E8E926DA2935D959006D166E /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Video.swift; path = "../../SwiftUI-List-Starter/Video.swift"; sourceTree = "<group>"; };
+		E8E926DC2935D96C006D166E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		E8E926DE2935DEC1006D166E /* VideoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +99,10 @@
 			isa = PBXGroup;
 			children = (
 				E8E860B62935D8B3001EEC3A /* UiListNavApp.swift */,
-				E8E860B82935D8B3001EEC3A /* ContentView.swift */,
 				E8E860BA2935D8B5001EEC3A /* Assets.xcassets */,
+				E8E926DA2935D959006D166E /* Video.swift */,
+				E8E926DC2935D96C006D166E /* ListView.swift */,
+				E8E926DE2935DEC1006D166E /* VideoDetailView.swift */,
 				E8E860BC2935D8B5001EEC3A /* Preview Content */,
 			);
 			path = UiListNav;
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8E860B92935D8B3001EEC3A /* ContentView.swift in Sources */,
+				E8E926DD2935D96C006D166E /* ListView.swift in Sources */,
+				E8E926DF2935DEC1006D166E /* VideoDetailView.swift in Sources */,
+				E8E926DB2935D959006D166E /* Video.swift in Sources */,
 				E8E860B72935D8B3001EEC3A /* UiListNavApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
