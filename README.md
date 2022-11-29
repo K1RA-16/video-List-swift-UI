@@ -10,7 +10,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # Product Name
-<br />
+<!-- <br />
 <p align="center">
   <a href="https://github.com/alexanderritik/Best-README-Template">
     <img src="logo.jpeg" alt="Logo" width="80" height="80">
@@ -19,11 +19,11 @@
     One to two paragraph statement about your product and what it does.
   </p>
 </p>
-
+ -->
 <p align="row">
-<img src= "https://user-images.githubusercontent.com/62954414/204465639-40d2a9db-2521-4f1d-ba53-0590570647c8.png" width="200" >
-<img src= "https://user-images.githubusercontent.com/62954414/204465636-1b627107-ac8b-4578-a8d6-67a6e7d47f24.png" width="200" >
-<img src= "https://user-images.githubusercontent.com/62954414/204465599-63532c80-d2d7-4b24-adc3-1af11bc2e6a8.png" width="200" >
+<img src= "https://user-images.githubusercontent.com/62954414/204465639-40d2a9db-2521-4f1d-ba53-0590570647c8.png" width="300" >
+<img src= "https://user-images.githubusercontent.com/62954414/204465636-1b627107-ac8b-4578-a8d6-67a6e7d47f24.png" width="300" >
+<img src= "https://user-images.githubusercontent.com/62954414/204465599-63532c80-d2d7-4b24-adc3-1af11bc2e6a8.png" width="300" >
 </p>
 
 ## Features
