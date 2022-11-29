@@ -11,10 +11,10 @@ struct ListView: View {
     
     var videos = VideoList.topTen
     var body: some View {
-        NavigationView{
+        NavigationStack{
             List(videos,id: \.id){
                 video in
-                NavigationLink(destination: VideoDetailView(video: video), label: {
+                NavigationLink(value: video, label: {
                     HStack{
                         Image(video.imageName)
                             .resizable()
@@ -34,6 +34,10 @@ struct ListView: View {
                 })
                
             }.navigationTitle("Sean's Top 10")
+                .navigationDestination(for: Video.self){
+                    video in
+                VideoDetailView(video: video)
+                }
         }
     }
 }
